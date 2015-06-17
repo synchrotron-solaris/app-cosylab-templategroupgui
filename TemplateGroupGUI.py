@@ -8,9 +8,6 @@ def getGuiWidget(argv):
     gui_groups = {}
     additional_configuration = None
     title = None
-
-
-    title = None
     for i in range(0,len(argv)):
 
         # READ GROUP NAME FROM CONF

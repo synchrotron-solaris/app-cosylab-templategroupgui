@@ -51,7 +51,7 @@ class Ui_MainWindow(object):
         self.mainLayout.setObjectName("mainLayout")
         self.mainLayout.setSpacing(4)
 
-        # 1. Layout for PREV button
+        # 1. Layout for PREV buttons
         self.prevLayout = QtGui.QVBoxLayout()
         self.horizontalLayout.addLayout(self.prevLayout)
 
@@ -72,7 +72,7 @@ class Ui_MainWindow(object):
         vline.setLineWidth(2)
         self.horizontalLayout.addWidget(vline)
 
-        # 5. Layout for PREV button
+        # 5. Layout for NEXT buttons
         self.nextLayout = QtGui.QVBoxLayout()
         self.horizontalLayout.addLayout(self.nextLayout)
 
